@@ -6,23 +6,23 @@ This is a website of a company with Home , About, Services , Team and Contact Pa
 
 ## Home Page
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 ## About Page
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 ## Services Page
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 ## Team Page
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 ## Contact Page
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 ## Tech Used
 
