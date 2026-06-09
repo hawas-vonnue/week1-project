@@ -39,15 +39,21 @@
       img {
         border-radius: 50%;
       }
+      @media print {
+        #navbar {
+          display: none;
+        }
+      }
     </style>
   </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <a href="./index.html">Home</a>
       <a href="./about.html">About</a>
       <a href="./services.html">Services Page</a>
       <a href="./team.html" aria-current="page">Team Page</a>
       <a href="./contact.html">Contact</a>
+      <a href="./products.html">Products</a>
     </nav>
     <main>
       <h1>Our Team</h1>
