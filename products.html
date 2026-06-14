@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Products Page</title>
+    <style>
+      @media print {
+        #navbar {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <a href="./index.html">Index</a>
+      <a href="./about.html">About</a>
+      <a href="./services.html">Services Page</a>
+      <a href="./team.html">Team Page</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./products.html" aria-current="page">Products</a>
+    </nav>
+
+    <main>
+      <h1>Products</h1>
+      <form>
+        <fieldset>
+          <legend>Filter</legend>
+          <label for="categorySelect">Select The category:</label>
+          <input list="categories" id="categorySelect" />
+          <datalist id="categories">
+            <option value="Vehicle"></option>
+            <option value="Food"></option>
+            <option value="Appliances"></option>
+            <option value="Accessories"></option>
+          </datalist>
+          <br />
+          <br />
+          <input type="checkbox" id="inStock" />
+          <label for="inStock">In stock only</label>
+        </fieldset>
+        <input type="submit" />
+      </form>
+      <h2>Table</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Category</th>
+            <th scope="col">Price</th>
+            <th scope="col">Stock Status</th>
+            <th scope="col">Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Biscuit</th>
+            <td>Food</td>
+            <td>50</td>
+            <td>Yes</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <th scope="row">Swift</th>
+            <td>Vehicle</td>
+            <td>60000000</td>
+            <td>Yes</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <th scope="row">Computer</th>
+            <td>Appliances</td>
+            <td>80000</td>
+            <td>No</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <th scope="row">Chain</th>
+            <td>Accessories</td>
+            <td>5000</td>
+            <td>Yes</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <th scope="row">Watch</th>
+            <td>Accessories</td>
+            <td>8000</td>
+            <td>Yes</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <th scope="row">Bike</th>
+            <td>Vehicle</td>
+            <td>700000</td>
+            <td>Yes</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <th scope="row">Maggi</th>
+            <td>Food</td>
+            <td>20</td>
+            <td>Yes</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <th scope="row">Specs</th>
+            <td>Accessories</td>
+            <td>7000</td>
+            <td>No</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <th scope="row">Bicycle</th>
+            <td>Vehicle</td>
+            <td>4000</td>
+            <td>Yes</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <th scope="row">Mobile</th>
+            <td>Appliances</td>
+            <td>70000</td>
+            <td>Yes</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <th scope="row">Laptop</th>
+            <td>Appliances</td>
+            <td>90000</td>
+            <td>Yes</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <th scope="row">Soup</th>
+            <td>Food</td>
+            <td>500</td>
+            <td>No</td>
+            <td>5</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
